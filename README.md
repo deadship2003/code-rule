@@ -46,3 +46,12 @@ machinery and defers its build.sh interface to LIF-005.
   lives in local backups.
 - Any renumbering must be registered in the Numbering History table;
   old references convert via the table.
+- Amend an entry: edit LIF-00N.md in place, preserving all normative
+  content; note the amendment in the entry's Origin line and register
+  it in the index's dated notes (a local backup snapshot is taken
+  first, per convention).
+- Cite entries by name first, number second (e.g. "service lifecycle
+  guideline (LIF-006)") — names survive renumbering, numbers do not.
+- LIF-001 carries three scoped exemptions (vendored third-party
+  trees, realistic test fixtures, runtime user-facing locale copy);
+  see that entry's Exemptions section.

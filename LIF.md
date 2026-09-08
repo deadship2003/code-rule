@@ -19,6 +19,10 @@
 > commits); LIF-005~008 Technical Standards in dependency order (005 =
 > universal CLI, 006 = service lifecycle, 007 = debug enhancement,
 > 008 = engineering build).
+> Citation convention (2026-09-08): cite entries by NAME first,
+> number second — e.g. "service lifecycle guideline (LIF-006)". Names
+> are stable across renumberings; numbers are not (convert old ones
+> via the Numbering History table).
 > 2026-09-07: library created alongside the CLAUDE.md @import; rewritten
 > in pure English (user-confirmed), Chinese originals retired — snapshots
 > in ~/.claude/backups/LIF.md.bak-*.
@@ -34,6 +38,14 @@
 > index and imports the entry files (import depth 2, within the 5-hop
 > limit); entry content unchanged (snapshot of the single-file version:
 > LIF.md.bak-20260908-120342-presplit).
+> 2026-09-08 (3rd): amendment pass (owner-confirmed) — LIF-001 gained
+> three scoped exemptions (vendored third-party trees / realistic
+> test fixtures / runtime user-facing locale copy; developer- and
+> operator-facing text stays English); library-wide citation
+> convention added (name first, number second); missing Related
+> footers added to LIF-004 and LIF-006 for cross-reference
+> consistency. No renumbering — the Numbering History table is
+> unchanged. Pre-amendment snapshot: rules.bak-20260908-155209.
 > Any reorganization / renumbering must be registered in the Numbering
 > History table; old references convert via the table.
 
